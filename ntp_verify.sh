@@ -22,3 +22,4 @@ if [[ $rc != 0 ]]; then
   systemctl restart ntp
 fi
 
+exit 0

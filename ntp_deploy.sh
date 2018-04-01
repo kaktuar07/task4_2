@@ -18,3 +18,5 @@ crontab -l > mycron
 echo "* * * * * $SCRIPTPATH/ntp_verify.sh" >> mycron
 crontab mycron
 rm mycron
+
+exit 0
